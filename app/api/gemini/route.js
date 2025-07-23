@@ -1,5 +1,3 @@
-// app/api/gemini/route.js
-
 export async function POST(req) {
   const { query } = await req.json();
   const apiKey = process.env.GEMINI_API_KEY;
